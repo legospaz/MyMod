@@ -1,5 +1,6 @@
 package com.blitzlego.blitzutils;
 
+import com.blitzlego.blitzutils.setup.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +29,8 @@ public class BlitzUtils
 
     public BlitzUtils()
     {
+        Registration.register();
+
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
