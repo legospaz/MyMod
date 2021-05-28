@@ -102,7 +102,7 @@ minecraft {
             args '--mod', 'blitzutils', '--all',
 
                     '--existing', file('src/main/resources/').toString(),
-                    '--existing', file('src/generated/resources').toString(),
+                    '--existing', file('src/generated/resources'),
                     '--output', file('src/generated/resources/')
 
             mods {
