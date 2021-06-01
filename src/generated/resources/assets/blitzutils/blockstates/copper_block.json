@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blitzutils:block/copper_block"
+    }
+  }
+}
