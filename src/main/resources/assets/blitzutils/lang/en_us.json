@@ -1,3 +1,5 @@
 {
-  "item.blitzutils.copper_ingot": "Copper Ingot"
+  "item.blitzutils.copper_ingot": "Copper Ingot",
+  "block.blitzutils.copper_ore": "Copper Ore",
+  "block.blitzutils.copper_block": "Copper Block"
 }
